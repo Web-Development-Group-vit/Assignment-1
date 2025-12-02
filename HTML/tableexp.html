@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Team Section</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 40px 0;
+      background: #ffffff;
+      color: #222;
+    }
+
+    .team-wrapper {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 16px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 8px;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 32px;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 32px 0 8px;
+    }
+
+    .divider {
+      height: 1px;
+      background: #e5e5e5;
+      margin: 16px 0 24px;
+    }
+
+    /* card grid */
+    .card-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      margin-bottom: 24px;
+    }
+
+    .member-card {
+      width: 190px;
+      background: #fff;
+      border-radius: 8px;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0 2px 4px rgba(15, 23, 42, 0.06);
+      padding: 16px 12px 12px;
+    }
+
+    .role-tag {
+      font-size: 11px;
+      color: #888;
+      margin-bottom: 4px;
+    }
+
+    .avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background: #d9d9d9;
+      margin: 4px auto 8px;
+      overflow: hidden;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .member-name {
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 2px;
+    }
+
+    .member-position {
+      font-size: 11px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .social {
+      font-size: 11px;
+      color: #0077b5; /* LinkedIn blue */
+    }
+
+    .social span {
+      margin: 0 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="team-wrapper">
+    <h1>Meet the Team for 2024-2025</h1>
+    <p class="subtitle">Core Team (12)</p>
+    <div class="divider"></div>
+
+    <!-- Lead row -->
+    <div class="section-title">Lead</div>
+    <div class="card-row">
+      <div class="member-card">
+        <div class="role-tag">Lead</div>
+        <div class="avatar">
+          <!-- <img src="lead.jpg" alt="Lead" /> -->
+        </div>
+        <div class="member-name">Karan Harshey</div>
+        <div class="member-position">DSC Lead</div>
+        <div class="social">
+          <span>in</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Heads row -->
+    <div class="section-title">Heads</div>
+    <div class="card-row">
+      <div class="member-card">
+        <div class="role-tag">AI/ML Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Rishi Jain</div>
+        <div class="member-position">AI/ML Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">Management Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Urvi Kshirsgar</div>
+        <div class="member-position">Management Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">Content Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Aanchal Shrivastava</div>
+        <div class="member-position">Content Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">Web3 Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Mandar Pandagale</div>
+        <div class="member-position">Web3 Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">Multimedia Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Keyur Barde</div>
+        <div class="member-position">Multimedia Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">App Dev Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Krrish Kumbhare</div>
+        <div class="member-position">App Development Head</div>
+        <div class="social">
+          <span>in</span><span>◉</span>
+        </div>
+      </div>
+
+      <div class="member-card">
+        <div class="role-tag">Web Dev Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Durvesh Chaudhari</div>
+        <div class="member-position">Web Development Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- Co-Heads example row -->
+    <div class="section-title">Co-Heads</div>
+    <div class="card-row">
+      <div class="member-card">
+        <div class="role-tag">AI/ML Co-Head</div>
+        <div class="avatar"></div>
+        <div class="member-name">Member Name</div>
+        <div class="member-position">AI/ML Co-Head</div>
+        <div class="social"><span>in</span></div>
+      </div>
+      <!-- add more co-head cards here -->
+    </div>
+  </div>
+</body>
+</html>
